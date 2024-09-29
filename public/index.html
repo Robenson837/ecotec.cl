@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTec</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<container1 class=".container1">
+
+    <body>
+
+        <h1>
+            <img src="images/logo_ecotec.png" alt="EcoTec Logo" style="height: 100px; width: 180px;">
+        </h1>
+        <div class="container">
+            <h1>Estación Meteorológica</h1>
+            <div class="chart-container">
+                <canvas id="chart"></canvas>
+            </div>
+        </div>
+        <div class="current-data">
+            <p>Temperatura actual: <span id="tempActual"></span>°C</p>
+            <p>Humedad actual: <span id="humedadActual"></span>%</p>
+        </div>
+        <div class="controls">
+            <button id="riegoOn">Encender Riego</button>
+            <button id="riegoOff">Apagar Riego</button>
+            <button id="riegoAuto">Riego Automatico</button>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    <footer>&copy EcoTec Derechos Reservado! |
+        <link href="#">Privacidad</link>
+    </footer>
+</container1>
+
+</html>
